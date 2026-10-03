@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/>
+<title>RN Weddings &amp; Events | Grand Celebrations &amp; Event Management</title>
+<meta content="RN Weddings and Events - Grand celebration styling, stage decor, mascot entertainment, traditional baby showers (Seemantha), and event management across Shivamogga, Davangere, Hubli &amp; Chikkamagaluru." name="description"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              charcoal: '#080a0f',
+              dark: '#0e121a',
+              surface: '#141a24',
+              gold: '#d4af37',
+              goldLight: '#f3e5ab',
+              champagne: '#e8d8b8',
+              muted: '#8e9aa8',
+              accent: '#d97706'
+            }
+          },
+          fontFamily: {
+            sans: ['-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
+            serif: ['Didot', 'Bodoni MT', 'Cinzel', 'Playfair Display', 'Georgia', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    body {
+      -webkit-font-smoothing: antialiased;
+      -webkit-tap-highlight-color: transparent;
+      background-color: #080a0f;
+      color: #f8fafc;
+    }
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+    .bg-luxury-pattern {
+      background-image: 
+        radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.12) 0%, transparent 60%),
+        radial-gradient(circle at 10% 40%, rgba(217, 119, 6, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 90% 70%, rgba(180, 83, 9, 0.06) 0%, transparent 50%),
+        linear-gradient(180deg, #0b0f17 0%, #07090e 100%);
+    }
+
+    .gold-glow {
+      box-shadow: 0 0 35px -8px rgba(212, 175, 55, 0.22);
+    }
+    
+    .gallery-card {
+      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease;
+    }
+    .gallery-card:hover {
+      transform: translateY(-3px);
+    }
+  </style>
+</head>
+<body class="selection:bg-amber-500/30 selection:text-amber-200">
+<!-- TOP NAVIGATION BAR -->
+<header class="sticky top-0 z-50 bg-[#080a0f]/90 backdrop-blur-xl border-b border-white/10 transition-all duration-300">
+<div class="px-5 py-3.5 flex items-center justify-between max-w-5xl mx-auto">
+<a class="flex items-center gap-3 group" href="#hero">
+<div class="w-10 h-10 rounded-full border border-amber-400/40 bg-gradient-to-br from-amber-500/20 via-black to-slate-900 flex items-center justify-center text-amber-200 font-serif font-bold text-sm tracking-wider shadow-inner group-hover:border-amber-400 transition-colors">
+        RN
+      </div>
+<div class="flex flex-col">
+<span class="font-serif tracking-[0.2em] text-sm text-white font-semibold uppercase leading-none">RN EVENTS</span>
+<span class="text-[9px] uppercase tracking-widest text-amber-400/80 mt-1 font-mono">Weddings &amp; Celebrations</span>
+</div>
+</a>
+<nav class="hidden md:flex items-center gap-6 text-xs font-medium tracking-wider text-slate-300 uppercase">
+<a class="hover:text-amber-300 transition-colors" href="#services">Services</a>
+<a class="hover:text-amber-300 transition-colors" href="#case-study">Case Study</a>
+<a class="hover:text-amber-300 transition-colors" href="#gallery">Portfolio</a>
+<a class="hover:text-amber-300 transition-colors" href="#location">Location</a>
+<a class="hover:text-amber-300 transition-colors" href="#contact">Contact</a>
+</nav>
+<div class="flex items-center gap-2">
+<a aria-label="RN Events Instagram" class="w-9 h-9 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-amber-300 active:scale-95 transition-transform" href="https://www.instagram.com/rn_eventz?stkn=Z2x0djYwcGF2ejFs" rel="noopener noreferrer" target="_blank">
+<svg class="w-4 h-4 fill-currentColor" viewbox="0 0 24 24">
+<path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path>
+</svg>
+</a>
+<a class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-gradient-to-r from-amber-500/20 to-amber-600/30 border border-amber-400/40 text-amber-200 text-xs font-semibold tracking-wide active:scale-95 transition-all" href="tel:+919019280008">
+<svg class="w-3 h-3 fill-amber-300" viewbox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1.02l-2.2 2.2z"></path></svg>
+<span class="font-mono">9019280008</span>
+</a>
+</div>
+</div>
+</header>
+<!-- CINEMATIC HERO SECTION -->
+<section class="relative min-h-[75vh] flex flex-col justify-center px-5 pt-16 pb-12 bg-luxury-pattern overflow-hidden border-b border-white/5" id="hero">
+<div class="relative z-10 max-w-xl mx-auto w-full text-center">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-400/10 border border-amber-400/30 mb-5">
+<span class="w-2 h-2 rounded-full bg-amber-400 animate-ping"></span>
+<span class="text-[11px] uppercase tracking-[0.25em] text-amber-200 font-medium">Karnataka's Premier Event Specialists</span>
+</div>
+<h1 class="text-4xl sm:text-6xl font-serif text-white font-normal tracking-tight leading-[1.08] mb-4">
+      RN <span class="italic font-light text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-amber-400">Weddings</span><br/>&amp; Events
+    </h1>
+<p class="text-xs sm:text-sm uppercase tracking-[0.24em] text-amber-300 font-semibold mb-3">
+      Birthdays • Weddings • Anniversaries • All Celebrations
+    </p>
+<p class="text-sm text-slate-300 font-light leading-relaxed max-w-md mx-auto mb-8">
+      Creating celebrations people remember. Grand stage decor, royal mandaps, character mascot entries, authentic Seemantha styling, and end-to-end event management across Karnataka.
+    </p>
+<div class="flex flex-col sm:flex-row gap-3.5 max-w-md mx-auto">
+<a class="flex-1 py-4 px-6 rounded-xl bg-gradient-to-r from-amber-500 via-amber-400 to-amber-500 text-slate-950 font-bold text-xs uppercase tracking-[0.2em] text-center shadow-lg shadow-amber-500/25 active:scale-[0.98] transition-all flex items-center justify-center gap-2" href="#contact">
+<span>Plan Your Event</span>
+<svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</a>
+<a class="flex-1 py-3.5 px-6 rounded-xl bg-white/5 hover:bg-white/10 border border-white/20 text-white font-semibold text-xs uppercase tracking-[0.2em] text-center backdrop-blur-md active:scale-[0.98] transition-all flex items-center justify-center" href="#gallery">
+        View Our Work
+      </a>
+</div>
+<div class="mt-10 pt-6 border-t border-white/10 flex flex-wrap items-center justify-center gap-3 text-[11px] text-slate-400 font-light">
+<span class="flex items-center gap-1.5 text-amber-300/90 font-medium">
+<svg class="w-3.5 h-3.5 fill-current text-amber-400 shrink-0" viewbox="0 0 20 20"><path clip-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" fill-rule="evenodd"></path></svg>
+        Shivamogga • Davangere • Hubli • Chikkamagaluru
+      </span>
+<span class="font-mono text-white/70 bg-white/5 px-2.5 py-0.5 rounded border border-white/10">Karnataka Hub</span>
+</div>
+</div>
+</section>
+<!-- 12 SERVICE CATEGORIES (ALL 12 CATEGORIES FULLY POPULATED WITH IMAGES) -->
+<section class="px-5 py-14 bg-[#080a0f]" id="services">
+<div class="max-w-5xl mx-auto">
+<div class="flex items-end justify-between mb-8 border-b border-white/10 pb-4">
+<div>
+<span class="text-[10px] font-mono uppercase tracking-[0.25em] text-amber-400 block mb-1">Our Craft</span>
+<h2 class="text-2xl sm:text-3xl font-serif text-white">What We Create</h2>
+</div>
+<span class="text-xs text-amber-300 font-mono bg-amber-400/10 border border-amber-400/30 px-3 py-1 rounded-full">12 Core Categories</span>
+</div>
+<!-- 12 Service Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<!-- 1. Weddings & Stage Decoration -->
+<div class="p-5 rounded-2xl bg-gradient-to-br from-[#161d2a] via-[#101622] to-[#0a0d14] border border-amber-400/40 hover:border-amber-300 transition-all group gold-glow">
+<div class="flex items-center justify-between mb-2">
+<span class="text-xs font-mono text-amber-400 font-semibold">01</span>
+<span class="text-[10px] uppercase font-mono px-2 py-0.5 rounded bg-amber-400/20 text-amber-300 font-medium">Grand Setup</span>
+</div>
+<div class="relative rounded-lg overflow-hidden border border-amber-400/30 mb-3 shadow-md group-hover:border-amber-400/70 transition-colors">
+<img alt="Weddings &amp; Stage Decoration" class="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZR-FeRJkmuo85GSeLiikoomDEO7E_0_-DtBzfL00D3V3qP-i4g4wHzh3Am6B2yuPaXe-0-V19sl6yp8NbhjXP-eRg6FEWCwz1EU-MHQBdA6h0nCCGvGvT9vTmOxsR_HxilmKUhNAdUK0jSrv9zOZA4xdtMMHasf85nnp_IeCt43O2SuKSoedBIQw3YmSh91JQ-dnPK5hiaUmE06k_JTVOzkKGJEAhYtnaIELzT-XWA88Y9aI0WNVcSqBJJ6j_wlvo5g"/>
+<div class="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-black/85 backdrop-blur-sm border border-amber-400/30 text-[9px] font-mono text-amber-200">
+            Real Setup • Royal Floral Canopy &amp; Chandelier
+          </div>
+</div>
+<h3 class="text-base font-serif font-bold text-white group-hover:text-amber-300 transition-colors uppercase">1. Weddings &amp; Stage Decoration</h3>
+<p class="text-xs text-slate-300 mt-1.5 font-light leading-relaxed">Grand wedding stages, royal floral mandap canopies with chandeliers, golden pillars, walkway arches, reception entries &amp; thematic venue transformations.</p>
+</div>
+<!-- 2. Engagements -->
+<div class="p-5 rounded-2xl bg-gradient-to-br from-[#161d2a] via-[#101622] to-[#0a0d14] border border-amber-400/40 hover:border-amber-300 transition-all group gold-glow">
+<div class="flex items-center justify-between mb-2">
+<span class="text-xs font-mono text-amber-400 font-semibold">02</span>
+<span class="text-[10px] uppercase font-mono px-2 py-0.5 rounded bg-amber-400/20 text-amber-300 font-medium">Ring Ceremony</span>
+</div>
+<div class="relative rounded-lg overflow-hidden border border-amber-400/30 mb-3 shadow-md group-hover:border-amber-400/70 transition-colors">
+<img alt="Engagements" class="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxxleCFsvjyzNrvYh7B90Vjk7gGIQKThvWWpgcVD_eVFqI5I_2CA1v0n-xPtEj1xA3SwrB9z8qavf_1mgNzS09vnD2O6n3BADzA0cZQA2-5_vQ70OKt9q6Cj0HOS8mxkNqcnx7FFR-05FPw60Pup6QzPwv-yzHRN33yH9-Qrcybjxp98KKj61DQ9FcQxDpf_-7o9Ths1lQb_GgbedyYGA5dVvbITZsV2mxtC8LzIrQkYU6FNQHyisI"/>
+<div class="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-black/85 backdrop-blur-sm border border-amber-400/30 text-[9px] font-mono text-amber-200">
+            Real Setup • Pastel Floral Arches &amp; Monogram
+          </div>
+</div>
+<h3 class="text-base font-serif font-bold text-white group-hover:text-amber-300 transition-colors uppercase">2. Engagements</h3>
+<p class="text-xs text-slate-300 mt-1.5 font-light leading-relaxed">Exquisite fresh orchid and rose ring exchange backdrops, romantic mood lighting, custom monogram stages &amp; luxury couple seating.</p>
+</div>
+<!-- 3. Birthdays & Anniversaries -->
+<div class="p-5 rounded-2xl bg-gradient-to-br from-[#161d2a] via-[#101622] to-[#0a0d14] border border-amber-400/40 hover:border-amber-300 transition-all group gold-glow">
+<div class="flex items-center justify-between mb-2">
+<span class="text-xs font-mono text-amber-400 font-semibold">03</span>
+<span class="text-[10px] uppercase font-mono px-2 py-0.5 rounded bg-amber-400/20 text-amber-300 font-medium">Milestones</span>
+</div>
+<div class="relative rounded-lg overflow-hidden border border-amber-400/30 mb-3 shadow-md group-hover:border-amber-400/70 transition-colors">
+<img alt="Birthdays &amp; Anniversaries" class="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfdUca-AaXpv0TBEflrzWGrz6FQAH4KzoYcuB1I5XYoMdwTzSnZHtJa-O2xMuNxmYll489bDirTBtC-_BR_7ki_ALuVn1a_PX_eo0FWs6gqhdqWONxeLhePCa5aw6NLUEEpIpswQsxiErN955mjNGolOImhejvn57SHwF2UeDnuyWLtuJ6cRtIuM-W59bRJrY_fTSEaEUbtC0hai_xyXWuyrTSWHmkAHAM0oXD99iWSoTIkUtRLaRyiwdLQdpQZYOHNw"/>
+<div class="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-black/85 backdrop-blur-sm border border-amber-400/30 text-[9px] font-mono text-amber-200">
+            Real Setup • Neon Arch Ring &amp; Marquee Box
+          </div>
+</div>
+<h3 class="text-base font-serif font-bold text-white group-hover:text-amber-300 transition-colors uppercase">3. Birthdays &amp; Anniversaries</h3>
+<p class="text-xs text-slate-300 mt-1.5 font-light leading-relaxed">Milestone birthdays, custom themed balloon styling arches, neon signage, fluted plinths, romantic candlelight setups &amp; marquee lightboxes.</p>
+</div>
+<!-- 4. Baby Showers & Baby Welcome (Dual Images) -->
+<div class="p-5 rounded-2xl bg-gradient-to-br from-[#161d2a] via-[#101622] to-[#0a0d14] border border-amber-400/40 hover:border-amber-300 transition-all group relative overflow-hidden gold-glow">
+<div class="flex items-center justify-between mb-2.5">
+<span class="text-xs font-mono text-amber-400 font-semibold">04</span>
+<span class="text-[10px] uppercase font-mono px-2 py-0.5 rounded bg-amber-400/20 text-amber-300 font-medium">Dual Authentic Craft</span>
+</div>
+<div class="grid grid-cols-2 gap-2 mb-3">
+<div class="relative rounded-lg overflow-hidden border border-amber-400/40 group-hover:border-amber-400/70 transition-colors">
+<img alt="Baby Showers" class="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbocYO0WIheB04cni0ec_mQf2JSXYcMstte6MGJR2y2GZP5kxhMVXtiwjlXVeBpZO1MHWBI1sXLwGvJKDG4ZQalfxljK0uXqLzGMSAKr_Z1qWtdQMOgQrLm8OS4iJip9qMcK8gYoTuDOAckJrK-GEOCLnEvwk7I1Amc8RKhVRtJaq4AIvJqoAbW59fFXEmpPOrWA365cB7f1SWNxb3GM738plBLAQIpkH43Gaf5QaqY9alWMn5mAUNx_mcTUKeOB4sJg"/>
+<span class="absolute bottom-1.5 left-1.5 text-[8px] bg-black/85 px-1.5 py-0.5 rounded font-mono text-amber-200">Seemantha Setup</span>
+</div>
+<div class="relative rounded-lg overflow-hidden border border-amber-400/40 group-hover:border-amber-400/70 transition-colors">
+<img alt="Baby Welcome" class="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBlNIPshItfq7PTWULvvIRflQ8wK3JP7NvXylX6J_5cxN0K2ccPP-M4Wmb1V-28J6YhZx6C7GlM0eC1xo9bEmN872qBMKdEfIYFROoPgNJ9KQz1157D_XxxiyOSuA_CoK7kyEWiAYVTTfTGksS9NNztHU6FZGKiyei3LXthoyOc58ZJmJmabsPkP37pzORu8X_hVNbD2cE0FFwJZY6vb1WimLnbrvQu46idGVDeeiPnMsus6HX0lGRP-PERIMeCorjNKw"/>
+<span class="absolute bottom-1.5 left-1.5 text-[8px] bg-black/85 px-1.5 py-0.5 rounded font-mono text-amber-200">Petal Aisle</span>
+</div>
+</div>
+<h3 class="text-base font-serif font-bold text-white group-hover:text-amber-300 transition-colors uppercase">4. Baby Showers &amp; Baby Welcome</h3>
+<p class="text-xs text-slate-300 mt-1 font-light leading-relaxed">
+          Traditional Seemantha setups featuring handcrafted yellow marigold mustache &amp; turban backdrops, golden lotus pedestals, brass urlis, and sacred flower petal carpet pathways.
+        </p>
+</div>
+<!-- 5. Naming Ceremonies (Namakarana) -->
+<div class="p-5 rounded-2xl bg-gradient-to-br from-[#161d2a] via-[#101622] to-[#0a0d14] border border-amber-400/40 hover:border-amber-300 transition-all group gold-glow">
+<div class="flex items-center justify-between mb-2">
+<span class="text-xs font-mono text-amber-400 font-semibold">05</span>
+<span class="text-[10px] uppercase font-mono px-2 py-0.5 rounded bg-amber-400/20 text-amber-300 font-medium">Namakarana</span>
+</div>
+<div class="relative rounded-lg overflow-hidden border border-amber-400/30 mb-3 shadow-md group-hover:border-amber-400/70 transition-colors">
+<img alt="Naming Ceremonies" class="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbxczHVWHPbjqX85yx24QM290fRQsueId6evfneVE-rGKEzp39FVRzzTIhxRsSWZm-XJi_k7hJXZd6d30nvIQ-j0cGgFPkYAb-9tZizc6-gOFG2WWj4QyObi-VQ0xBvdrS0ghUAC5U9RyYsa9ckWl_K2C5qN23kzELW_ZZaA2k1R3s5alscxHhBtM1oXNbP5gqeH4O-57-jCyCHa6ZUbalSBA-yhkvuwxcNOH2KiI1wLYsrLe0Pe_g"/>
+<div class="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-black/85 backdrop-blur-sm border border-amber-400/30 text-[9px] font-mono text-amber-200">
+            Real Setup • Decorated Brass Thottilu &amp; Deepam
+          </div>
+</div>
+<h3 class="text-base font-serif font-bold text-white group-hover:text-amber-300 transition-colors uppercase">5. Naming Ceremonies (Namakarana)</h3>
+<p class="text-xs text-slate-300 mt-1.5 font-light leading-relaxed">Decorated traditional brass thottilu (cradle), auspicious floral canopies, fresh jasmine garlands, deepam oil lamps, and blessed family rituals.</p>
+</div>
+<!-- 6. Housewarming & Puja (Gruhapravesha) -->
+<div class="p-5 rounded-2xl bg-gradient-to-br from-[#161d2a] via-[#101622] to-[#0a0d14] border border-amber-400/40 hover:border-amber-300 transition-all group gold-glow">
+<div class="flex items-center justify-between mb-2">
+<span class="text-xs font-mono text-amber-400 font-semibold">06</span>
+<span class="text-[10px] uppercase font-mono px-2 py-0.5 rounded bg-amber-400/20 text-amber-300 font-medium">Gruhapravesha</span>
+</div>
+<div class="relative rounded-lg overflow-hidden border border-amber-400/30 mb-3 shadow-md group-hover:border-amber-400/70 transition-colors">
+<img alt="Housewarming &amp; Puja" class="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAjFzpi0NV47KfccJWBGtiPHDuLoEzW4Q3kfieb7dO_1zvK__VjIgiuk9RvjEYFlJoSvREtmwCqrIvLjK3khu8sY1wew5zRzRF_oQH5_4pZuX48iaAzvi7K9Uyz2lIQUIEMdth-IUrKpKRU_rVoyM-3x9u3Am2SB1LeeIBRYc3ENrrGRN3vQkhWRDiSTuheT4MJL_hwcU05-k5g925u2knOLfLHf_1sZ_B0FL_fjZ0xgYhyrOPrnZrfdEI8JkH2J9gLA"/>
+<div class="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-black/85 backdrop-blur-sm border border-amber-400/30 text-[9px] font-mono text-amber-200">
+            Real Setup • Floral Arch &amp; Silver Kalasha
+          </div>
+</div>
+<h3 class="text-base font-serif font-bold text-white group-hover:text-amber-300 transition-colors uppercase">6. Housewarming &amp; Puja (Gruhapravesha)</h3>
+<p class="text-xs text-slate-300 mt-1.5 font-light leading-relaxed">Auspicious floral arch temple setups, deepam brass decor, sacred backdrop tapestries, silver kalasha, and homa staging.</p>
+</div>
+<!-- 7. Haldi & Mehendi -->
+<div class="p-5 rounded-2xl bg-gradient-to-br from-[#161d2a] via-[#101622] to-[#0a0d14] border border-amber-400/40 hover:border-amber-300 transition-all group gold-glow">
+<div class="flex items-center justify-between mb-2">
+<span class="text-xs font-mono text-amber-400 font-semibold">07</span>
+<span class="text-[10px] uppercase font-mono px-2 py-0.5 rounded bg-amber-400/20 text-amber-300 font-medium">Pre-Wedding</span>
+</div>
+<div class="relative rounded-lg overflow-hidden border border-amber-400/30 mb-3 shadow-md group-hover:border-amber-400/70 transition-colors">
+<img alt="Haldi &amp; Mehendi" class="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCP2gc8nCzXRkbxXT4Eagw4niAR99T3HEZaMTDn6rpCRchLtOyOThhM8Wfh0VSh6nyb4iQt-WVuSbLuzmhDiPvBEQ3tiJtDfVxa3Ifw63tZs2Xy7hwx9hNGZqVo8roxbh-cDt1cfy4ZX-wX1JQMEapBLza9nSpNgxbINYxclMMMXCBSjizNu_6uq9ci1i9fhDVsdXXRNQAfd5rRmwuzFoQyZkyfUAhdbPGmGZojTXnS6Go3SU-ATFEN"/>
+<div class="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-black/85 backdrop-blur-sm border border-amber-400/30 text-[9px] font-mono text-amber-200">
+            Real Setup • Vibrant Marigold Canopy &amp; Urlis
+          </div>
+</div>
+<h3 class="text-base font-serif font-bold text-white group-hover:text-amber-300 transition-colors uppercase">7. Haldi &amp; Mehendi</h3>
+<p class="text-xs text-slate-300 mt-1.5 font-light leading-relaxed">Radiant yellow marigold walls, carved ethnic brass urlis, colorful floral canopies, dreamcatcher backdrops &amp; festive photobooths.</p>
+</div>
+<!-- 8. Corporate Events & College Fests -->
+<div class="p-5 rounded-2xl bg-gradient-to-br from-[#161d2a] via-[#101622] to-[#0a0d14] border border-amber-400/40 hover:border-amber-300 transition-all group gold-glow">
+<div class="flex items-center justify-between mb-2">
+<span class="text-xs font-mono text-amber-400 font-semibold">08</span>
+<span class="text-[10px] uppercase font-mono px-2 py-0.5 rounded bg-amber-400/20 text-amber-300 font-medium">Large Stage</span>
+</div>
+<div class="relative rounded-lg overflow-hidden border border-amber-400/30 mb-3 shadow-md group-hover:border-amber-400/70 transition-colors">
+<img alt="Corporate Events &amp; College Fests" class="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5XrT2p-qav06-oatYxe_7OiRhKDHsH4KTYLWKuh5eeF_mdwpbHLfM--ZkLugl9y0O1XZB7lKBr9XlW5U9RuPe8ES1kszUR8pvIVEazxxZSGMcoDypWa6lkBnQYliVnjUJX8fhUmGXKEhI0ZMDI0U2FLgAmap9Hkabw6LtdX-MsWacNtUEHZ7aHKTM4NY9fG29AiDovDhg_sQ2FjagQTn4hgH3JatrUpOrl_bR705Xewf1mkJfmJpTlvWQz7J_5l8IMQ"/>
+<div class="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-black/85 backdrop-blur-sm border border-amber-400/30 text-[9px] font-mono text-amber-200">
+            Real Setup • Quad CO2 Geysers &amp; LED Wall
+          </div>
+</div>
+<h3 class="text-base font-serif font-bold text-white group-hover:text-amber-300 transition-colors uppercase">8. Corporate Events &amp; College Fests</h3>
+<p class="text-xs text-slate-300 mt-1.5 font-light leading-relaxed">Mega concert stages, brand launches, dealer conferences, quad vertical CO2 cold smoke geysers, LED truss walls &amp; professional audio.</p>
+</div>
+<!-- 9. Grand Entries & Special Effects -->
+<div class="p-5 rounded-2xl bg-gradient-to-br from-[#161d2a] via-[#101622] to-[#0a0d14] border border-amber-400/40 hover:border-amber-300 transition-all group gold-glow">
+<div class="flex items-center justify-between mb-2">
+<span class="text-xs font-mono text-amber-400 font-semibold">09</span>
+<span class="text-[10px] uppercase font-mono px-2 py-0.5 rounded bg-amber-400/20 text-amber-300 font-medium">SFX Atmosphere</span>
+</div>
+<div class="relative rounded-lg overflow-hidden border border-amber-400/30 mb-3 shadow-md group-hover:border-amber-400/70 transition-colors">
+<img alt="Grand Entries &amp; Special Effects" class="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAc0kIUsYcEaAVdvu962VE3VJQxKBX3SSBEnO31gcbvQWO0Vu7wXU9JUCCSAuj7a3yzUJoc_iN77s2bfBu8qb-eO5CM_IehDS3eksRuKvcno1NVJa9LvUoOPieQv_jhtU-pAPsEmIEu4dKLZZNhZMNTnNb3OFco3BeqC3wRzMItVgGkrybstByRQz8p8yeIuDkmuIzQFv1aH8DqULwGW889wQMpjuIRDJdJ62wJPX32gqaD2O404UFLu2hZtKmybAIsMw"/>
+<div class="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-black/85 backdrop-blur-sm border border-amber-400/30 text-[9px] font-mono text-amber-200">
+            Real Setup • Low Fog Clouds &amp; Sparkulars
+          </div>
+</div>
+<h3 class="text-base font-serif font-bold text-white group-hover:text-amber-300 transition-colors uppercase">9. Grand Entries &amp; Special Effects</h3>
+<p class="text-xs text-slate-300 mt-1.5 font-light leading-relaxed">Royal bridal &amp; groom cloud entries, dense dry-ice low fog clouds, cold sparkular pyros, colored daylight smoke flares &amp; walkway tunnels.</p>
+</div>
+<!-- 10. Photography & Videography -->
+<div class="p-5 rounded-2xl bg-gradient-to-br from-[#161d2a] via-[#101622] to-[#0a0d14] border border-amber-400/40 hover:border-amber-300 transition-all group gold-glow">
+<div class="flex items-center justify-between mb-2">
+<span class="text-xs font-mono text-amber-400 font-semibold">10</span>
+<span class="text-[10px] uppercase font-mono px-2 py-0.5 rounded bg-amber-400/20 text-amber-300 font-medium">Cinematic Media</span>
+</div>
+<div class="relative rounded-lg overflow-hidden border border-amber-400/30 mb-3 shadow-md group-hover:border-amber-400/70 transition-colors">
+<img alt="Photography &amp; Videography" class="w-full h-48 object-cover rounded-lg group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9oAE-OSVDuM16RMVgPZwg17JI_E1Z_Lwb8NZYUSTY1zlbIuWyXjx4tlE1JO1u_V7F2PxOVRZz3bwD9UX0edshzEaLUUZd3u6xQdZM4xQPJVOxUCPUlc9ArmlUvycBJpPb_4QIYCUyioLzTLU3qVsAaZWfNBWliKZgEZI-YBi9n6BQWuvoNLkwGEH0iqu6Q31YxKDZBbDyR-m5TvLY_0F63SzTTteOoNlUNBuIQmyQfTlS3Ci8Wazu"/>
+<div class="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-black/85 backdrop-blur-sm border border-amber-400/30 text-[9px] font-mono text-amber-200">
+            Real Setup • 4K Cinematography &amp; Live Gimbal
+          </div>
+</div>
+<h3 class="text-base font-serif font-bold text-white group-hover:text-amber-300 transition-colors uppercase">10. Photography &amp; Videography</h3>
+<p class="text-xs text-slate-300 mt-1.5 font-light leading-relaxed">Candid wedding cinematography, high-altitude drone shots, 4K reel teasers, traditional portraits &amp; premium memory albums.</p>
+</div>
+<!-- 11. Mascots & Artist Services -->
+<div class="p-5 rounded-2xl bg-gradient-to-br from-[#161d2a] via-[#101622] to-[#0a0d14] border border-amber-400/40 hover:border-amber-300 transition-all group gold-glow">
+<div class="flex items-center justify-between mb-2">
+<span class="text-xs font-mono text-amber-400 font-semibold">11</span>
+<span class="text-[10px] uppercase font-mono px-2 py-0.5 rounded bg-amber-400/20 text-amber-300 font-medium">Entertainment</span>
+</div>
+<div class="relative rounded-lg overflow-hidden border border-amber-400/30 mb-3 shadow-md group-hover:border-amber-400/70 transition-colors">
+<img alt="Mascots &amp; Artist Services" class="w-full h-48 object-cover object-top rounded-lg group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLmxfN0doSylwE2j7k9wofSPOgJtVJOJ2h62EuNuJ7vNtLLb21v-EUxBcqu5fVGw-TMi7dIj4kU9vvMF6B73nLy5oFMUH4_LKt5xn8fb9zsjNfo6d0SpU-Lp4XqUAKKwWHYmZaPt-YyDVQBQPSPs5qHO5K-vzJ4bw2eUHokapGMW9TKSQvZ8gRDCv9G7pHRm6FifnNJWlm_xIqsHCA52nR6rNI1dhTOO66pgS_hNojq_Fw5WvGDwb_okEqTOSNktRw5w"/>
+<div class="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-black/85 backdrop-blur-sm border border-amber-400/30 text-[9px] font-mono text-amber-200">
+            Real Setup • Giant King Kong &amp; Character Mascots
+          </div>
+</div>
+<h3 class="text-base font-serif font-bold text-white group-hover:text-amber-300 transition-colors uppercase">11. Mascots &amp; Artist Services</h3>
+<p class="text-xs text-slate-300 mt-1.5 font-light leading-relaxed">Giant King Kong fur mascot, Yellow Teddy Bear, character mascots, doorstep gift surprises, professional emcees, live singers, DJ artists &amp; Dollu Kunitha performers.</p>
+</div>
+<!-- 12. Temple Decor, Chappara & Other Events -->
+<div class="p-6 rounded-2xl bg-gradient-to-br from-[#1a2333] via-[#101622] to-black border border-amber-400/40 gold-glow transition-all">
+<div class="flex items-center justify-between mb-2">
+<span class="text-xs font-mono text-amber-300 font-bold flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+            12. TEMPLE DECOR, CHAPPARA &amp; OTHER EVENTS
+          </span>
+<span class="text-[10px] uppercase font-mono px-2 py-0.5 rounded bg-amber-400/20 text-amber-300">Customized</span>
+</div>
+<p class="text-xs text-slate-300 font-light mb-3">Tailored large-scale festival decor, public sports events, institutional gatherings &amp; specialized celebration staging:</p>
+<img alt="Temple Decor &amp; Other Events" class="w-full h-48 object-cover rounded-lg border border-amber-500/20 mb-3" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTuwFAIpnV7aQhtALZpXDpnAGhjlcXarqzfDW649DpqxGRDp7hJV6VOO3r45NOc_UYIa85eZLy3IBLuqjc1RGrmGRrKMO6f_LCcGkYvpXxhGAKxfJJdlh2-X26avN7WeRIjE3-JoZ3dAu-3x-XXx1BUM4-nWOLXLOpjAArv2deqTkh8dh9ybQH4eG534J-l5QWS8wyn3pukT_pT8ZuhC9BI2kxKtxwe54kP5TpeSeVzrUwr2umxmN-M1W1pI6MA6mpaA"/>
+<div class="flex flex-wrap gap-2 pt-1">
+<span class="px-3 py-1.5 rounded-lg bg-amber-400/15 border border-amber-400/30 text-amber-200 text-xs font-medium tracking-wide">Marathons</span>
+<span class="px-3 py-1.5 rounded-lg bg-amber-400/15 border border-amber-400/30 text-amber-200 text-xs font-medium tracking-wide">Chappara</span>
+<span class="px-3 py-1.5 rounded-lg bg-amber-400/15 border border-amber-400/30 text-amber-200 text-xs font-medium tracking-wide">College Fests</span>
+<span class="px-3 py-1.5 rounded-lg bg-amber-400/15 border border-amber-400/30 text-amber-200 text-xs font-medium tracking-wide">Surprises</span>
+<span class="px-3 py-1.5 rounded-lg bg-amber-400/15 border border-amber-400/30 text-amber-200 text-xs font-medium tracking-wide">Pre-wedding Setup</span>
+<span class="px-3 py-1.5 rounded-lg bg-amber-400/15 border border-amber-400/30 text-amber-200 text-xs font-medium tracking-wide">Tapasya Decor</span>
+<span class="px-3 py-1.5 rounded-lg bg-amber-400/15 border border-amber-400/30 text-amber-200 text-xs font-medium tracking-wide">Temple Decor</span>
+<span class="px-3 py-1.5 rounded-lg bg-amber-400/15 border border-amber-400/30 text-amber-200 text-xs font-medium tracking-wide">Bouncers &amp; Crowd Security</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FEATURED CASE STUDY: HINDU MAHASABHA GANAPATI 2026 -->
+<section class="py-14 px-5 bg-gradient-to-b from-[#080a0f] via-[#120f0d] to-[#080a0f] border-y border-amber-500/20" id="case-study">
+<div class="max-w-2xl mx-auto">
+<div class="flex items-center gap-2 mb-3">
+<span class="w-2 h-2 rounded-full bg-amber-400"></span>
+<span class="text-[10px] uppercase font-mono tracking-[0.25em] text-amber-400 font-semibold">Featured Case Study</span>
+</div>
+<h2 class="text-3xl sm:text-4xl font-serif text-white uppercase tracking-wider leading-tight mb-2">
+      HINDU MAHASABHA<br/><span class="text-amber-300">GANAPATI 2026</span>
+</h2>
+<p class="text-xs uppercase tracking-widest text-slate-400 font-mono mb-6">
+      Decoration &amp; Special Effects by RN Weddings &amp; Events
+    </p>
+<div class="relative rounded-2xl overflow-hidden border border-amber-400/40 shadow-2xl gold-glow group">
+<img alt="Hindu Mahasabha Ganapati 2026 Grand Arch in Gandhi Bazar" class="w-full max-h-[550px] object-cover object-center rounded-2xl shadow-2xl border border-amber-500/30 group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9pXw_bxsiv5jNnQL3JxxYdMavxc40KiRssLR0z8hwzZhe-DOLSr5o50MZqYnaB7EKnbXyJT8GjwJq2T0zPgHiq7V9QtYeLtDqwqNio69jDKH78MQW1eBG-0bMB4EVvfX-FQ6PVKPMCV1ijn4oizQlljQVe9463mj8lN-k91rWtEZ45EEk3Qg8mBoQ96eNEWvC-e36xqJlt-kENafPDrwWcda4pbl1VyqPxAfT4AfK9NP4kZ2FvI1gs0FxmUBuh2Va-g"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent flex flex-col justify-end p-5">
+<div class="flex flex-wrap items-center gap-2">
+<span class="px-2.5 py-1 rounded bg-amber-500 text-black text-[10px] font-bold uppercase tracking-wider">
+            Shivamogga Gandhi Bazar Procession
+          </span>
+<span class="text-xs text-amber-200 font-mono">Atmospheric Orange Smoke &amp; Grand Sacred Chariot</span>
+</div>
+</div>
+</div>
+<div class="mt-5 p-6 rounded-2xl bg-white/[0.03] border border-white/10 backdrop-blur-sm">
+<p class="text-xs sm:text-sm text-slate-300 font-light leading-relaxed">
+        From grand festival chariots with atmospheric smoke effects at Gandhi Bazar to serene intimate family rituals, RN Weddings &amp; Events delivers unforgettable spectacles with flawless crowd coordination and technical execution.
+      </p>
+</div>
+</div>
+</section>
+<!-- PORTFOLIO & EVENT GALLERY (Independent, Responsive Grid, Filter Tabs & Lightbox) -->
+<section class="px-5 py-16 bg-[#080a0f]" id="gallery">
+<div class="max-w-5xl mx-auto">
+<div class="flex flex-col mb-6">
+<span class="text-[10px] font-mono uppercase tracking-[0.25em] text-amber-400 block mb-1">Authentic Client Portfolio</span>
+<h2 class="text-2xl sm:text-3xl font-serif text-white">Event Gallery</h2>
+<p class="text-xs sm:text-sm text-slate-400 mt-1 font-light">Explore genuine celebration moments: royal wedding mandaps, entrance dry-ice fog, mega concert stages, King Kong mascot, birthday neon rings, and sacred Seemantha rituals.</p>
+</div>
+<!-- Interactive Filter Tabs -->
+<div class="flex items-center gap-2 overflow-x-auto no-scrollbar pb-3 mb-6">
+<button class="gallery-filter active px-4 py-2 rounded-full text-xs font-semibold bg-amber-400 text-black transition-all shrink-0" onclick="filterPortfolio('all', this)">All Real Events</button>
+<button class="gallery-filter px-4 py-2 rounded-full text-xs font-semibold bg-white/10 text-slate-300 hover:bg-white/15 transition-all shrink-0" onclick="filterPortfolio('weddings', this)">Weddings &amp; Stages</button>
+<button class="gallery-filter px-4 py-2 rounded-full text-xs font-semibold bg-white/10 text-slate-300 hover:bg-white/15 transition-all shrink-0" onclick="filterPortfolio('babyshower', this)">Baby Showers &amp; Traditional</button>
+<button class="gallery-filter px-4 py-2 rounded-full text-xs font-semibold bg-white/10 text-slate-300 hover:bg-white/15 transition-all shrink-0" onclick="filterPortfolio('birthdays', this)">Birthdays &amp; Parties</button>
+<button class="gallery-filter px-4 py-2 rounded-full text-xs font-semibold bg-white/10 text-slate-300 hover:bg-white/15 transition-all shrink-0" onclick="filterPortfolio('mascot', this)">Mascots &amp; Characters</button>
+<button class="gallery-filter px-4 py-2 rounded-full text-xs font-semibold bg-white/10 text-slate-300 hover:bg-white/15 transition-all shrink-0" onclick="filterPortfolio('sfx', this)">SFX, Fog &amp; Concerts</button>
+</div>
+<!-- Authentic Gallery Grid with Verified DataStore Images -->
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4" id="portfolioGrid">
+<!-- 1: Royal Wedding Mandap -->
+<div class="gallery-item all weddings group cursor-pointer gallery-card" onclick="openLightbox('Royal Wedding Floral Stage Canopy', 'Indoor royal wedding stage with cascading floral chandeliers, grand golden carved pillars, and royal cream throne seating.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuCgTgLgbAZOh02QYpuR89eXum1LWwMvpDZr97FWL6jPR7aDkGFRoNEZdQNq0QzlcJ5wdAuh07POm4cylUpMglziUS0dH3esdHiGi1xGaR7xtTqBJlcR5yJY3JwFchgFdHkUkFxuTql7XX6wDSCrGEUPwn6ItNuQzu-maGwtkg1q_A7-FeOPw822YWkI9NrYdkd8LDF5c_GvPX9BkPzUsmym_rrVwND5sCFDaTxrI3_OJWF4T1myPFb5Bm6xCT9vPCmIDQ')">
+<div class="aspect-[3/4] rounded-xl overflow-hidden border border-amber-400/40 relative bg-slate-900 gold-glow">
+<img alt="Royal Grand Wedding Canopy Stage" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDl4D0AOY3FoCQXNtyC_RqkHG7Gj9IkdvaJwoWR5j-BRid6vHnKhAQifPnUApf1Ox0Mjh2VrmlpKyVVsJDF7JdFY2mdLkujoxPtlia_x6V-Tzm3qVFfPrfbyFMpzNdr5vwcLDNmGiI4j7Sld5mDFXtt3kO-OQWAfPg2UK0hqS9Tj3yoyyvuhVr4YhWG7fh7BHrP2mPmYGFm7IaQreE2YSaZq3_8RWbuduDBuvgcf6rVlsqRZe-nzUJCNxZnSoyAZ7rWtw"/>
+<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="text-[10px] font-mono tracking-widest text-amber-300 uppercase px-3 py-1 bg-black/80 rounded border border-amber-400/30">View Full Photo</span>
+</div>
+<span class="absolute top-2 right-2 text-[9px] font-mono uppercase px-2 py-0.5 rounded bg-amber-500 text-black font-bold">Royal Mandap</span>
+<span class="absolute bottom-2 left-2 text-[10px] bg-black/80 backdrop-blur-sm px-2 py-0.5 rounded text-white font-medium">01. Wedding Canopy</span>
+</div>
+</div>
+<!-- 2: Couple Fog Cloud Entry with Sparklers -->
+<div class="gallery-item all sfx weddings group cursor-pointer gallery-card" onclick="openLightbox('Grand Entrance with Low Fog &amp; Sparkulars', 'Royal bride and groom entry walk through dense dry-ice white cloud with synchronous cold pyro sparkler fountains.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuAr5LuvGEkx7Rn7fBak466FahyVL0UNlP7ATdH7neNaYgxhKBIxs9-QHCZIUIS2dTHU1EfM3qOnorJ8IJS9ahHrPz39lwz8Otg9r1Ubd4oUjwIcGzO6TOGqGR9cUt7h5gO0CRAl2wI4SIumrjO8QRtlfigK6L-I-yfJIGp3LKb1aan0Z3wyJ5t-eQteGnaSOwVEo5W5Rt5vn4DrqqEIbYKUkjGBuH-42xfZxif9EiQAe-PeUczKHoV-fLBdTlLaCaarWQ')">
+<div class="aspect-[3/4] rounded-xl overflow-hidden border border-amber-400/40 relative bg-slate-900 gold-glow">
+<img alt="Grand Couple Entrance Low Fog Dry Ice Clouds" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLFIp0nCiIu4ZK8v1ETnVHkSuyycLMH-Bq3wfV1dTn74_h71KaRg5xyzrboeGGCDOeCk2Slpft3QlX6OE49zPvKwSdB1dvav_LCJVHyxBkP0KTcggr0h6XNQpegE_wS4Icfw9m7nt8Lm-K8qbEhccb2IRxsG1wq5c58JO9ig6DEulkVx3HusH5l80a1pj6ZYwafjJw4x2ZR6p_JAkBD1WgPuEvNZ4mIEBVFZKsrn7B54dCB8xoilKxC1h-TxkwfO-5Hg"/>
+<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="text-[10px] font-mono tracking-widest text-amber-300 uppercase px-3 py-1 bg-black/80 rounded border border-amber-400/30">View Full Photo</span>
+</div>
+<span class="absolute top-2 right-2 text-[9px] font-mono uppercase px-2 py-0.5 rounded bg-amber-500 text-black font-bold">Cloud Entry</span>
+<span class="absolute bottom-2 left-2 text-[10px] bg-black/80 backdrop-blur-sm px-2 py-0.5 rounded text-white font-medium">02. Dry Ice &amp; Pyros</span>
+</div>
+</div>
+<!-- 3: Mega Concert Stage with Quad CO2 Geysers -->
+<div class="gallery-item all sfx group cursor-pointer gallery-card sm:col-span-2 md:col-span-2" onclick="openLightbox('Mega Concert &amp; Fest Stage Setup', 'Large indoor auditorium festival stage with quad CO2 cold smoke geysers, high-definition LED truss wall, red carpet, and audio truss rig.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuBwRs5cJDLWYBb9e8tui8krKKsEaeVwwL_U_LMqlDuexm2iygVeCT12icaV8gH_Z3DyaCe2BwLaUnEOy5_niZ36znIktE8J_E_hR4aWXRcgePoazZVzK2qc_6r0J-YgKtCT_ropTTOeolmdYfVtkdZbOTyrikgrtc8qc6_XCs2GDX5Gwgxp5eSeyY7n_WGjHoXcm1-9Ecrj5xE_n4D_kDv9peTLk4wlPVF3nixIfqqujEqUpuexPCXBhbkh7dQohM2AHw')">
+<div class="aspect-[16/9] sm:h-[18.5rem] rounded-xl overflow-hidden border border-white/20 relative bg-slate-900">
+<img alt="Mega Concert Stage with CO2 Geysers" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQDLz8oRtNiXq1iLRvl-QLD-5dLhrBKgyCO0VNlok-I8pBdlyPHQ8jAviA_sRx26sw7fwHRMl31SHH8Z-VFY9pY8cjfMNEN-X7_oQUwDwI3Nnq-vh3DJ_gINmLwR2aiexkpoEhaaqtKjllIc5mTv9-RQYN90D3LwKOAgI072orIq0h27veGQ3iE2uq9TwCpJ1G8wrDtx6VV7RoTNLBFQ0vJknop88JgkYaeQyArp63IWn4eRvLuEQftx7sdqhuDqNQrQ"/>
+<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="text-[10px] font-mono tracking-widest text-amber-300 uppercase px-3 py-1 bg-black/80 rounded border border-amber-400/30">View Full Photo</span>
+</div>
+<span class="absolute top-2 right-2 text-[9px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-500 text-black font-bold">Mega Stage SFX</span>
+<span class="absolute bottom-2 left-2 text-[10px] bg-black/80 backdrop-blur-sm px-2 py-0.5 rounded text-white font-medium">03. CO2 Geysers &amp; LED Truss</span>
+</div>
+</div>
+<!-- 4: Giant King Kong Mascot -->
+<div class="gallery-item all mascot group cursor-pointer gallery-card" onclick="openLightbox('Giant King Kong Mascot Surprise', 'Towering life-sized gorilla / King Kong mascot entertaining guests and creating an unforgettable celebratory vibe.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuCCJ-Ad6P0S1p7p-aAxc675E0MIoE30lUImzgb5INWCGBtt767odD-yX6g1zrExj_vTtsSa7d8CPnqhK65Ne8sbMPj7mGDxKxWsMuY9T_acPiaaSO7ywnKDv161cgI7FeNWK4jaYJtmIv8YttPaLvEBm63ifLZmXj-Tguh79ZVLhJUaCf3P8niNiC4Z6b2KMy7SwNM8Fr7VKpESCLAm5D1yMsNJuW4fGHlUP3t7pgG39SGYlprbGZ5AkWKT02XrufPoCg')">
+<div class="aspect-[3/4] rounded-xl overflow-hidden border border-white/10 relative bg-slate-900">
+<img alt="Giant King Kong Character Mascot" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvxBp41WASlmy96SpFimcsiis8iLNqRjyf_VrglkLRCLSYJVUTfBFccIJpi9JYjobY2IbRVmGvqAdwt_9a6aqXwrj_riO4bVq7kApjftmoGSMRNdlHYOGtIdqgDqwBc0BUuX1H9CzPRiBWCyEm2H6Wza87OpnD1TowviOkxpedkc2bylP-wizcfRicL1mTgRnYQ4VzG86akz3VKQHwWZBnxSc18XrN670Nw0sLPLUkDN7sbgDxokh7wreRm5isdOes6Q"/>
+<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="text-[10px] font-mono tracking-widest text-amber-300 uppercase px-3 py-1 bg-black/80 rounded border border-amber-400/30">View Full Photo</span>
+</div>
+<span class="absolute bottom-2 left-2 text-[10px] bg-black/80 backdrop-blur-sm px-2 py-0.5 rounded text-white font-medium">04. King Kong Mascot</span>
+</div>
+</div>
+<!-- 5: Birthday Ring Balloon Arch -->
+<div class="gallery-item all birthdays group cursor-pointer gallery-card" onclick="openLightbox('Rockstar Dad Birthday Theme Setup', 'Purple and white balloon arch ring backdrop, neon Happy Birthday light, cake plinth, and personalized marquee lightbox message.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuBsAMceZen4yFPHRi_1eYs_wCVjW2EeGcdj9_1oj4Owy962S5zrxd2cT-XMkVL5NWokz8PEuuN3PIzJ3COHdACuoLkV3ceX1mFdf3GcfY_n2dZJxsA4h1cvyRB9XKhpxSVIN3F9M-DvwpP9YMBycmT8Q5fi4uFf6J21OSxecJZ5ayczZ7DeisJMv1tS3gVGJ8jj7nXKPz6soI2KQLYacpx2P98LP_anQwZl_q4h1s74mjEnlUGa_xpiZsQMdY4RmE1O9Q')">
+<div class="aspect-[3/4] rounded-xl overflow-hidden border border-white/10 relative bg-slate-900">
+<img alt="Birthday Balloon Arch Ring &amp; Neon Sign" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxYgEgHYLz2bXNhMQx7Gj4kZy-89JjY5-NRdlIyx7GtZSBnwlTJ1rYIL8p3hgq4DlAnentO3mbcFRhY43hj4zLei-BStjioBB0mjFHDhzRVnA6LynUO-9P0Peg1Uo9sHu1uzNreJKnTKGl0qEAnAZjusy0LVH2BTTmNtQc-qp8gl7FHHaj6IWfxPVYU_IawlX6NRyxHxR5Ksi7sn9z8-eHs3gXKJBwWaI4IWb1yvoXGUFb78nt7D1Qh8vk3NzWWIPAvw"/>
+<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="text-[10px] font-mono tracking-widest text-amber-300 uppercase px-3 py-1 bg-black/80 rounded border border-amber-400/30">View Full Photo</span>
+</div>
+<span class="absolute bottom-2 left-2 text-[10px] bg-black/80 backdrop-blur-sm px-2 py-0.5 rounded text-white font-medium">05. Birthday Neon Arch</span>
+</div>
+</div>
+<!-- 6: Traditional Gruhapravesha Temple Arch Decor -->
+<div class="gallery-item all babyshower group cursor-pointer gallery-card" onclick="openLightbox('Sacred Puja &amp; Housewarming Setup', 'Traditional pink and white floral temple arch, embroidered golden backdrop, silver kalasha, and sacred deepam brass lamps.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuDSOVGhP6_BJyDOXxTFwGjb5zut4i2zHh_zOeMp5eDwnhmMuQuF_XNAxCZtDYpR5jPa_Bd7cX5vWMvtvQhBO1Gs4WDeeXNc9sPIoV5u4s1PjRL-zHIrX9v_dT8AFypuke2R2KNWg9OPEQ7lzV871z7L44kvrRCwZNxmZ6TXXfxq8nmXxMEDPxKLOzd__uOfg9x6FR7MRVeCirciFPCN9MTon-4zoJev6WX7_I_FHNwdlpVp2VLbMykC3cwsyDkg5HAjYw')">
+<div class="aspect-[3/4] rounded-xl overflow-hidden border border-white/10 relative bg-slate-900">
+<img alt="Gruhapravesha Sacred Puja Floral Arch" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDmShxjXEdgvZf-tFa1djgoTp1vo0WbvoFZyjvBpjzJa8AlTvKIwJT--KzhTySP0Qyj8PcBWppyHUj6pr1VDEKQwa1mSZrmwN1wtrXPc2B5fhKfBKrXr0Wpgdz2LCam_5BAMEW4_uz3mNQRxfhyUJHstARGb5SETRmgbRYcjQtMfXTnlkhcsKL7J37Eeri-LiGaM-5orPwytEmh_LItr6fHGI3vo-QFKA3msHxjaj_RjiTh_KDb9jY_ZCRe8kQjEkgf_A"/>
+<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="text-[10px] font-mono tracking-widest text-amber-300 uppercase px-3 py-1 bg-black/80 rounded border border-amber-400/30">View Full Photo</span>
+</div>
+<span class="absolute bottom-2 left-2 text-[10px] bg-black/80 backdrop-blur-sm px-2 py-0.5 rounded text-white font-medium">06. Puja Floral Arch</span>
+</div>
+</div>
+<!-- 7: Welcome Baby Floral Petal Pathway -->
+<div class="gallery-item all babyshower group cursor-pointer gallery-card" onclick="openLightbox('Welcome Baby Flower Petal Pathway', 'Artisan hand-laid fresh rose and marigold flower petal carpet forming WELCOME BABY along grand home entrance hallway.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuBYwfYAhsVEMQewhLYN25PFN_t2E61UJNCirnFIqxsb1ZM-u6l54etCuRaUmVjsJxNUpGml899UYANf2dOeogspV_vc60vfae8HJ7tCbNHkWf1t0RY6eut92EirHNirYMNo19iOYePiOVJgFEz-lR1h5AwhU-hH_XYqnl-9rrYIK3elJXgAwd1YMs9RPZWokzqQboameAHezWedbpYgT4KuK3UGU7CPHS_5upIbdwfsf6TJ-pTmKYDS13cA0pTQv0NgTw')">
+<div class="aspect-[3/4] rounded-xl overflow-hidden border border-white/10 relative bg-slate-900">
+<img alt="Welcome Baby Flower Petal Pathway" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYs_HILMYuRbRamh-wSgWjtp8iXCBY_cSB_Xuy8ibkjYnwnAMeG-yWE7boM9fZ0LLzanrt3EiIFw_KkqZzG6ZrVIE47ywaJ2NAuctr1FAFoKWLty1EPTh3CMvE62REeeDIPIKGbDErLbYDYTinyWS3eZb2tVZ9MJMTKH0foC30wxICDD2woLaSAA-QetbgwMiIheCLOYaSIZGrKpIEUTxvK0_Ses9Ch6yyLj45ViNbpubyMWu9Yy6_vDqiN4jScsZJ_g"/>
+<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="text-[10px] font-mono tracking-widest text-amber-300 uppercase px-3 py-1 bg-black/80 rounded border border-amber-400/30">View Full Photo</span>
+</div>
+<span class="absolute bottom-2 left-2 text-[10px] bg-black/80 backdrop-blur-sm px-2 py-0.5 rounded text-white font-medium">07. Welcome Baby Petal Aisle</span>
+</div>
+</div>
+<!-- 8: Authentic Seemantha Setup -->
+<div class="gallery-item all babyshower group cursor-pointer gallery-card" onclick="openLightbox('Traditional Seemantha &amp; Baby Shower Setup', 'Auspicious Seemantha decor featuring handcrafted yellow marigold mustache motif, yellow floral backdrop garlands, carved golden lotus pedestal, and sacred brass urlis adorned with flower petals.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuAzkG_IMvdM9MeBgnJZ0prWYxDDf21b7ZIkHmxMRL1UvCcKZ2AEvGmjDey_X-gyITmDSK7tHe-wnuq3THz7ZdlYzPcbywodAWPmsGdfA6Gh_UlgDszg_6tdfVs5H0YeWqyW0r4QAWQ-RVpFx5yXbU9caiPdrZnILdYpVNGRR9WKB95RyxsxQxQUjdmCmpMtYLySxwiPgCPqWcI-y2u3lhExpQIZnsYL9potx_50pPBdMD3ydg8D_8OKg17nkwQdtUZy5Q')">
+<div class="aspect-[3/4] rounded-xl overflow-hidden border border-amber-400/40 relative bg-slate-900 gold-glow">
+<img alt="Traditional Seemantha &amp; Baby Shower Setup by RN Weddings and Events" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD44A507Vi_MLIz1KhXjon6GpJptKoayFgCUbsS2DapAdeddRyh4YB5SKUclKMY5eWL6hf1osW0vlvk0GrLCk-xHJNOqE3tPnB_hLxLXaMz8qa1akGbH4Jzg7PEFH59ubKZbNOcpk4Enw1FJ0lloB-aQVS-SxsmJqiqZEtFvpbrK9cSN9nELzSSC39iz-IXqiLLYwn6iyw1z1H4AHp8BUmErsxuhVflMeRVOj8qzisBqjLSKLQyKiKbIdsb4HWN8eow8w"/>
+<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="text-[10px] font-mono tracking-widest text-amber-300 uppercase px-3 py-1 bg-black/80 rounded border border-amber-400/30">View Full Photo</span>
+</div>
+<span class="absolute top-2 right-2 text-[9px] font-mono uppercase px-2 py-0.5 rounded bg-amber-500 text-black font-bold">Featured Seemantha</span>
+<span class="absolute bottom-2 left-2 text-[10px] bg-black/80 backdrop-blur-sm px-2 py-0.5 rounded text-white font-medium">08. Seemantha Urli &amp; Motif</span>
+</div>
+</div>
+<!-- 9: Temple Decor & Chappara Setup -->
+<div class="gallery-item all group cursor-pointer gallery-card" onclick="openLightbox('Temple Decor, Chappara &amp; Custom Events', 'Comprehensive celebration styling for chappara setups, temple festivals, marathons, and custom event installations.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuCQUM5cdqT56KjvV0EIxtMTsUov6_iH_aN1Yj1Zka1EK8d2lpXOzZ9F9k9Z1W0dLBuxHbBmZN3vwfYaJ5_r2_dogSfg1ipJR9UMdDzh7C1oLhv03oG-0emVN78nHMnxsDDnmQ85XsR9x9tZAr0-SUPliyby9xQ8hSL6tH32qztvJNVuE9yEaFtUbJ1vabWSIM0htProE4pvmj_saEx5cQQmqGiZ2Fm3GsqvqjC5io7ieRW067eHqgIMx-ReMYt_6j86-w')">
+<div class="aspect-[3/4] rounded-xl overflow-hidden border border-white/10 relative bg-slate-900">
+<img alt="Custom Events &amp; Chappara Setup" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHMPPL655bRRFIrNmE65fFTE2t22NTNabZcE_7WsaqEeR8aa2tSN8QaqY9twliZ4Jmm-pKtSc9XQLNHd5ZClkMQqETFgd02xNcQiOehtYEcJ790aUD0M64TEOybtOlt8e-FNByXT1bPbf31wFdry20TJ0quysFLgja-GP-LC5Vg-O2hg7SLnJkQYNOLVQv5hDkn6ok_VUi1HZCzZmzrVwdKKqB2zun4Q2rsFwSQz9wEkdSs8nlPe0te8xgDkIe3ZaaxA"/>
+<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="text-[10px] font-mono tracking-widest text-amber-300 uppercase px-3 py-1 bg-black/80 rounded border border-amber-400/30">View Full Photo</span>
+</div>
+<span class="absolute bottom-2 left-2 text-[10px] bg-black/80 backdrop-blur-sm px-2 py-0.5 rounded text-white font-medium">09. Temple &amp; Chappara</span>
+</div>
+</div>
+<!-- 10: Engagement Stage Setup -->
+<div class="gallery-item all weddings group cursor-pointer gallery-card" onclick="openLightbox('Bespoke Engagement Stage', 'Romantic pastel arches, glowing fairy lights, custom couple monogram backdrop and golden sofa seating.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuBxxleCFsvjyzNrvYh7B90Vjk7gGIQKThvWWpgcVD_eVFqI5I_2CA1v0n-xPtEj1xA3SwrB9z8qavf_1mgNzS09vnD2O6n3BADzA0cZQA2-5_vQ70OKt9q6Cj0HOS8mxkNqcnx7FFR-05FPw60Pup6QzPwv-yzHRN33yH9-Qrcybjxp98KKj61DQ9FcQxDpf_-7o9Ths1lQb_GgbedyYGA5dVvbITZsV2mxtC8LzIrQkYU6FNQHyisI')">
+<div class="aspect-[3/4] rounded-xl overflow-hidden border border-amber-400/40 relative bg-slate-900 gold-glow">
+<img alt="Engagement Stage Setup" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxxleCFsvjyzNrvYh7B90Vjk7gGIQKThvWWpgcVD_eVFqI5I_2CA1v0n-xPtEj1xA3SwrB9z8qavf_1mgNzS09vnD2O6n3BADzA0cZQA2-5_vQ70OKt9q6Cj0HOS8mxkNqcnx7FFR-05FPw60Pup6QzPwv-yzHRN33yH9-Qrcybjxp98KKj61DQ9FcQxDpf_-7o9Ths1lQb_GgbedyYGA5dVvbITZsV2mxtC8LzIrQkYU6FNQHyisI"/>
+<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="text-[10px] font-mono tracking-widest text-amber-300 uppercase px-3 py-1 bg-black/80 rounded border border-amber-400/30">View Full Photo</span>
+</div>
+<span class="absolute bottom-2 left-2 text-[10px] bg-black/80 backdrop-blur-sm px-2 py-0.5 rounded text-white font-medium">10. Engagement Stage</span>
+</div>
+</div>
+<!-- 11: Naming Ceremony Thottilu Setup -->
+<div class="gallery-item all babyshower group cursor-pointer gallery-card" onclick="openLightbox('Traditional Namakarana Stage', 'Auspicious silk backdrop, floral carpet, hanging brass oil deepams, and decorated brass thottilu cradle.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuCbxczHVWHPbjqX85yx24QM290fRQsueId6evfneVE-rGKEzp39FVRzzTIhxRsSWZm-XJi_k7hJXZd6d30nvIQ-j0cGgFPkYAb-9tZizc6-gOFG2WWj4QyObi-VQ0xBvdrS0ghUAC5U9RyYsa9ckWl_K2C5qN23kzELW_ZZaA2k1R3s5alscxHhBtM1oXNbP5gqeH4O-57-jCyCHa6ZUbalSBA-yhkvuwxcNOH2KiI1wLYsrLe0Pe_g')">
+<div class="aspect-[3/4] rounded-xl overflow-hidden border border-white/10 relative bg-slate-900">
+<img alt="Naming Ceremony Setup" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbxczHVWHPbjqX85yx24QM290fRQsueId6evfneVE-rGKEzp39FVRzzTIhxRsSWZm-XJi_k7hJXZd6d30nvIQ-j0cGgFPkYAb-9tZizc6-gOFG2WWj4QyObi-VQ0xBvdrS0ghUAC5U9RyYsa9ckWl_K2C5qN23kzELW_ZZaA2k1R3s5alscxHhBtM1oXNbP5gqeH4O-57-jCyCHa6ZUbalSBA-yhkvuwxcNOH2KiI1wLYsrLe0Pe_g"/>
+<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="text-[10px] font-mono tracking-widest text-amber-300 uppercase px-3 py-1 bg-black/80 rounded border border-amber-400/30">View Full Photo</span>
+</div>
+<span class="absolute bottom-2 left-2 text-[10px] bg-black/80 backdrop-blur-sm px-2 py-0.5 rounded text-white font-medium">11. Namakarana Thottilu</span>
+</div>
+</div>
+<!-- 12: Haldi & Mehendi Celebration -->
+<div class="gallery-item all weddings group cursor-pointer gallery-card" onclick="openLightbox('Vibrant Haldi &amp; Mehendi Decor', 'Rich marigold floral canopies, colorful draped fabrics, and brass urlis with floating rose petals.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuCP2gc8nCzXRkbxXT4Eagw4niAR99T3HEZaMTDn6rpCRchLtOyOThhM8Wfh0VSh6nyb4iQt-WVuSbLuzmhDiPvBEQ3tiJtDfVxa3Ifw63tZs2Xy7hwx9hNGZqVo8roxbh-cDt1cfy4ZX-wX1JQMEapBLza9nSpNgxbINYxclMMMXCBSjizNu_6uq9ci1i9fhDVsdXXRNQAfd5rRmwuzFoQyZkyfUAhdbPGmGZojTXnS6Go3SU-ATFEN')">
+<div class="aspect-[3/4] rounded-xl overflow-hidden border border-white/10 relative bg-slate-900">
+<img alt="Haldi &amp; Mehendi Decor" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCP2gc8nCzXRkbxXT4Eagw4niAR99T3HEZaMTDn6rpCRchLtOyOThhM8Wfh0VSh6nyb4iQt-WVuSbLuzmhDiPvBEQ3tiJtDfVxa3Ifw63tZs2Xy7hwx9hNGZqVo8roxbh-cDt1cfy4ZX-wX1JQMEapBLza9nSpNgxbINYxclMMMXCBSjizNu_6uq9ci1i9fhDVsdXXRNQAfd5rRmwuzFoQyZkyfUAhdbPGmGZojTXnS6Go3SU-ATFEN"/>
+<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="text-[10px] font-mono tracking-widest text-amber-300 uppercase px-3 py-1 bg-black/80 rounded border border-amber-400/30">View Full Photo</span>
+</div>
+<span class="absolute bottom-2 left-2 text-[10px] bg-black/80 backdrop-blur-sm px-2 py-0.5 rounded text-white font-medium">12. Haldi &amp; Mehendi</span>
+</div>
+</div>
+<!-- 13: Photography & Videography Crew -->
+<div class="gallery-item all group cursor-pointer gallery-card sm:col-span-2 md:col-span-2" onclick="openLightbox('Cinematic Photography &amp; Film Crew', 'Professional event cinematographers with high-end camera rigs, gimbal stabilizers, and mirrorless gear covering celebrations.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuC9oAE-OSVDuM16RMVgPZwg17JI_E1Z_Lwb8NZYUSTY1zlbIuWyXjx4tlE1JO1u_V7F2PxOVRZz3bwD9UX0edshzEaLUUZd3u6xQdZM4xQPJVOxUCPUlc9ArmlUvycBJpPb_4QIYCUyioLzTLU3qVsAaZWfNBWliKZgEZI-YBi9n6BQWuvoNLkwGEH0iqu6Q31YxKDZBbDyR-m5TvLY_0F63SzTTteOoNlUNBuIQmyQfTlS3Ci8Wazu')">
+<div class="aspect-[16/9] sm:h-[18.5rem] rounded-xl overflow-hidden border border-white/20 relative bg-slate-900">
+<img alt="Professional Cinematography Crew" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9oAE-OSVDuM16RMVgPZwg17JI_E1Z_Lwb8NZYUSTY1zlbIuWyXjx4tlE1JO1u_V7F2PxOVRZz3bwD9UX0edshzEaLUUZd3u6xQdZM4xQPJVOxUCPUlc9ArmlUvycBJpPb_4QIYCUyioLzTLU3qVsAaZWfNBWliKZgEZI-YBi9n6BQWuvoNLkwGEH0iqu6Q31YxKDZBbDyR-m5TvLY_0F63SzTTteOoNlUNBuIQmyQfTlS3Ci8Wazu"/>
+<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="text-[10px] font-mono tracking-widest text-amber-300 uppercase px-3 py-1 bg-black/80 rounded border border-amber-400/30">View Full Photo</span>
+</div>
+<span class="absolute top-2 right-2 text-[9px] font-mono uppercase px-2 py-0.5 rounded bg-emerald-500 text-black font-bold">Cinematography</span>
+<span class="absolute bottom-2 left-2 text-[10px] bg-black/80 backdrop-blur-sm px-2 py-0.5 rounded text-white font-medium">13. Camera &amp; Gimbal Crew</span>
+</div>
+</div>
+</div>
+<!-- Instagram Archive Callout -->
+<div class="mt-8 text-center">
+<a class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/5 border border-white/15 text-xs text-amber-200 font-semibold hover:bg-white/10 transition-colors" href="https://www.instagram.com/rn_eventz?stkn=Z2x0djYwcGF2ejFs" rel="noopener noreferrer" target="_blank">
+<span>View All Event Reels &amp; Posts on Instagram</span>
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</a>
+</div>
+</div>
+</section>
+<!-- INSTAGRAM PROFILE SHOWCASE -->
+<section class="py-14 px-5 bg-[#0a0e16] border-t border-white/5" id="instagram">
+<div class="max-w-xl mx-auto">
+<div class="p-6 sm:p-8 rounded-3xl bg-gradient-to-b from-white/[0.04] to-transparent border border-white/10 relative overflow-hidden">
+<div class="flex items-center gap-4 mb-6">
+<div class="w-16 h-16 rounded-full p-[2px] bg-gradient-to-tr from-amber-500 via-rose-500 to-purple-600 shrink-0">
+<div class="w-full h-full rounded-full bg-black flex items-center justify-center overflow-hidden border border-black">
+<span class="font-serif font-bold text-amber-200 text-xl">RN</span>
+</div>
+</div>
+<div>
+<div class="flex items-center gap-1.5">
+<span class="font-bold text-base text-white tracking-tight">@rn_eventz</span>
+<svg class="w-4 h-4 fill-amber-400" viewbox="0 0 20 20"><path clip-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" fill-rule="evenodd"></path></svg>
+</div>
+<p class="text-xs text-slate-300 font-medium">RN Weddings and Events</p>
+<p class="text-[11px] text-slate-400 font-mono mt-0.5">139 posts • 1K followers • 363 following</p>
+</div>
+</div>
+<div class="text-xs sm:text-sm text-slate-300 space-y-2 mb-6 bg-black/40 p-4 rounded-xl border border-white/5 font-light">
+<p>🎉 <strong class="text-white font-medium">Birthdays | Weddings | Anniversaries</strong> 🎉 All celebrations</p>
+<p>📍 Shivamogga | Davangere | Hubli | Chikkamagaluru</p>
+<p>📞 <span class="text-amber-300 font-mono font-medium">+91 9019280008 / 7019205020</span> | DM to book</p>
+</div>
+<a class="w-full py-4 rounded-xl bg-gradient-to-r from-purple-700 via-pink-600 to-amber-600 text-white font-bold text-xs uppercase tracking-[0.2em] text-center shadow-lg active:scale-[0.98] transition-all flex items-center justify-center gap-2" href="https://www.instagram.com/rn_eventz?stkn=Z2x0djYwcGF2ejFs" rel="noopener noreferrer" target="_blank">
+<svg class="w-4 h-4 fill-current" viewbox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg>
+<span>VIEW @RN_EVENTZ ON INSTAGRAM</span>
+</a>
+</div>
+</div>
+</section>
+<!-- LOCATION SECTION & GOOGLE MAPS -->
+<section class="py-14 px-5 bg-[#080a0f]" id="location">
+<div class="max-w-xl mx-auto">
+<span class="text-[10px] font-mono uppercase tracking-[0.25em] text-amber-400 block mb-1">Operational Base &amp; Coverage</span>
+<h2 class="text-2xl font-serif text-white mb-4">Office &amp; Service Locations</h2>
+<!-- Verified S K Tower Address Card -->
+<a class="block rounded-2xl overflow-hidden border border-amber-400/30 bg-gradient-to-br from-slate-900 via-slate-800 to-black p-6 relative group hover:border-amber-400 transition-all gold-glow" href="https://www.google.com/maps/search/?api=1&amp;query=S+K+Tower+Opposite+Basaveshwara+Temple+Gandhi+Bazar+Shivamogga+Karnataka+577202" rel="noopener noreferrer" target="_blank">
+<div class="flex items-start justify-between">
+<div>
+<span class="text-[9px] font-mono uppercase tracking-widest text-amber-400 bg-amber-400/10 px-2.5 py-1 rounded border border-amber-400/20">Official Address</span>
+<h3 class="text-xl font-serif font-bold text-white mt-2">FIND RN WEDDINGS &amp; EVENTS</h3>
+<p class="text-xs text-amber-300 font-mono mt-1 font-medium leading-relaxed">
+            S K Tower, Opposite Basaveshwara Temple, Gandhi Bazar, Shivamogga, Karnataka, India – 577202
+          </p>
+<p class="text-xs text-slate-300 mt-2.5 max-w-sm">
+            Serving events and celebrations across Shivamogga, Davangere, Hubli &amp; Chikkamagaluru regions.
+          </p>
+</div>
+<div class="w-12 h-12 rounded-full bg-amber-400/10 border border-amber-400/30 flex items-center justify-center text-xl group-hover:scale-110 transition-transform shrink-0">
+          📍
+        </div>
+</div>
+<div class="mt-6 pt-4 border-t border-white/10 flex items-center justify-between">
+<span class="text-xs font-semibold tracking-wider text-amber-300 group-hover:translate-x-1 transition-transform flex items-center gap-1.5">
+          GET DIRECTIONS VIA GOOGLE MAPS →
+        </span>
+<span class="text-[10px] text-slate-400 font-mono">Tap to Open</span>
+</div>
+</a>
+</div>
+</section>
+<!-- CONTACT / EVENT ENQUIRY SECTION (WHATSAPP INTEGRATION) -->
+<section class="px-5 py-16 bg-gradient-to-b from-[#080a0f] to-[#10141f] border-t border-white/10" id="contact">
+<div class="max-w-xl mx-auto">
+<span class="text-[10px] font-mono uppercase tracking-[0.25em] text-amber-400 block mb-1">Direct Consultation</span>
+<h2 class="text-2xl sm:text-3xl font-serif text-white font-normal mb-2">Let's Create Your Celebration</h2>
+<p class="text-xs sm:text-sm text-slate-400 mb-6 font-light leading-relaxed">
+      Planning a birthday, wedding, anniversary, or special celebration? Fill in your details below to start a direct consultation on WhatsApp with our team.
+    </p>
+<!-- Address banner in contact section -->
+<div class="mb-6 p-4 rounded-xl bg-white/[0.03] border border-white/10 flex items-start gap-3">
+<div class="text-amber-400 text-lg shrink-0 mt-0.5">📍</div>
+<div class="text-xs text-slate-300 font-light leading-relaxed">
+<strong class="text-white font-medium block">Office Address:</strong>
+        S K Tower, Opposite Basaveshwara Temple, Gandhi Bazar, Shivamogga, Karnataka, India – 577202
+      </div>
+</div>
+<!-- Enquiry Form with dynamic Others field and WhatsApp integration -->
+<form class="space-y-4" id="enquiryForm" onsubmit="submitToWhatsApp(event)">
+<div>
+<label class="block text-[11px] uppercase tracking-wider text-slate-300 mb-1.5 font-medium" for="custName">Your Name *</label>
+<input class="w-full bg-white/5 border border-white/15 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-amber-400 focus:ring-1 focus:ring-amber-400" id="custName" placeholder="e.g. Anand Sharma" required="" type="text"/>
+</div>
+<div>
+<label class="block text-[11px] uppercase tracking-wider text-slate-300 mb-1.5 font-medium" for="custPhone">Phone Number *</label>
+<input class="w-full bg-white/5 border border-white/15 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-amber-400 focus:ring-1 focus:ring-amber-400" id="custPhone" placeholder="e.g. +91 9019280008" required="" type="tel"/>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+<div>
+<label class="block text-[11px] uppercase tracking-wider text-slate-300 mb-1.5 font-medium" for="custEventType">Event Type *</label>
+<select class="w-full bg-[#141a24] border border-white/15 rounded-xl px-3 py-3 text-sm text-white focus:outline-none focus:border-amber-400" id="custEventType" onchange="handleEventTypeChange(this)" required="">
+<option value="Weddings and Stage Decoration">1. Weddings and Stage Decoration</option>
+<option value="Engagements">2. Engagements</option>
+<option value="Birthdays and Anniversaries">3. Birthdays and Anniversaries</option>
+<option selected="" value="Baby Showers &amp; Baby Welcome">4. Baby Showers &amp; Baby Welcome</option>
+<option value="Naming Ceremonies">5. Naming Ceremonies</option>
+<option value="Housewarming &amp; Puja">6. Housewarming &amp; Puja</option>
+<option value="Haldi and Mehendi">7. Haldi and Mehendi</option>
+<option value="Corporate Events &amp; College Fests">8. Corporate Events &amp; College Fests</option>
+<option value="Grand Entries &amp; Special Effects">9. Grand Entries &amp; Special Effects</option>
+<option value="Photography and Videography">10. Photography and Videography</option>
+<option value="Mascots &amp; Artist Services">11. Mascots &amp; Artist Services</option>
+<option value="Others">12. Temple Decor, Chappara &amp; Other Events</option>
+</select>
+<!-- Dynamic Container when "Others" is selected -->
+<div class="hidden mt-2.5" id="otherEventTypeContainer">
+<label class="block text-[10px] font-mono text-amber-300 uppercase tracking-wider mb-1" for="otherEventTypeInput">Specify Event Type *</label>
+<input class="w-full bg-[#182030] border border-amber-400/40 rounded-xl px-3.5 py-2.5 text-xs text-white placeholder-slate-400 focus:outline-none focus:border-amber-400 focus:ring-1 focus:ring-amber-400" id="otherEventTypeInput" placeholder="e.g. Marathon, Chappara, College Fest, Surprises, Tapasya Decor, Temple Decor, Bouncers" type="text"/>
+</div>
+</div>
+<div>
+<label class="block text-[11px] uppercase tracking-wider text-slate-300 mb-1.5 font-medium" for="custDate">Event Date</label>
+<input class="w-full bg-[#141a24] border border-white/15 rounded-xl px-3 py-3 text-sm text-white focus:outline-none focus:border-amber-400" id="custDate" type="date"/>
+</div>
+</div>
+<div>
+<label class="block text-[11px] uppercase tracking-wider text-slate-300 mb-1.5 font-medium" for="custMessage">Location &amp; Special Requirements</label>
+<textarea class="w-full bg-white/5 border border-white/15 rounded-xl px-4 py-3 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-amber-400 focus:ring-1 focus:ring-amber-400" id="custMessage" placeholder="Tell us about your venue location (Shivamogga, Davangere, Hubli, Chikkamagaluru), themes, or special setup requests..." rows="3"></textarea>
+</div>
+<button class="w-full py-4 rounded-xl bg-gradient-to-r from-emerald-600 via-emerald-500 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-bold text-xs uppercase tracking-[0.2em] shadow-lg shadow-emerald-900/30 active:scale-[0.98] transition-all flex items-center justify-center gap-2" type="submit">
+<svg class="w-4 h-4 fill-white" viewbox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm5.79 14.15c-.24.67-1.39 1.28-1.92 1.36-.51.08-1.18.11-3.39-.77-2.82-1.13-4.63-4.01-4.77-4.2-.14-.19-1.14-1.52-1.14-2.9 0-1.38.72-2.06.98-2.35.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.42-.07.65.48.24.58.82 2.01.89 2.16.07.15.12.33.02.53-.1.2-.15.32-.3.49-.15.17-.31.38-.45.51-.15.15-.31.31-.13.62.18.31.79 1.3 1.7 2.11 1.17 1.04 2.16 1.36 2.47 1.51.31.15.49.13.67-.08.18-.21.78-.91.99-1.22.21-.31.42-.26.71-.15.29.11 1.83.86 2.14 1.02.31.15.52.23.6.36.08.13.08.77-.16 1.44z"></path></svg>
+<span>Send Enquiry on WhatsApp</span>
+</button>
+</form>
+</div>
+</section>
+<!-- FOOTER -->
+<footer class="py-12 px-5 bg-black border-t border-white/10 text-center">
+<div class="max-w-md mx-auto space-y-4">
+<div class="w-10 h-10 rounded-full border border-amber-400/40 bg-amber-500/10 mx-auto flex items-center justify-center text-amber-200 font-serif font-bold text-xs">
+      RN
+    </div>
+<h4 class="font-serif tracking-[0.2em] text-white font-bold text-sm uppercase">RN WEDDINGS AND EVENTS</h4>
+<p class="text-xs text-slate-400 font-light">Birthdays | Weddings | Anniversaries | All celebrations</p>
+<p class="text-xs text-amber-300 font-medium">Shivamogga | Davangere | Hubli | Chikkamagaluru</p>
+<p class="text-xs text-slate-400 font-mono">
+      S K Tower, Opposite Basaveshwara Temple, Gandhi Bazar, Shivamogga, Karnataka, India – 577202
+    </p>
+<div class="pt-2 flex flex-wrap items-center justify-center gap-4 text-xs text-slate-400">
+<a class="text-white hover:text-amber-300 transition-colors font-mono" href="tel:+919019280008">+91 9019280008</a>
+<span>•</span>
+<a class="text-white hover:text-amber-300 transition-colors font-mono" href="tel:+917019205020">+91 7019205020</a>
+<span>•</span>
+<a class="hover:text-amber-300 transition-colors" href="https://www.instagram.com/rn_eventz?stkn=Z2x0djYwcGF2ejFs" rel="noopener noreferrer" target="_blank">Instagram: @rn_eventz</a>
+</div>
+<div class="pt-4 flex items-center justify-center gap-6 text-xs text-amber-300 uppercase tracking-widest font-semibold">
+<a class="hover:underline" href="https://www.instagram.com/rn_eventz?stkn=Z2x0djYwcGF2ejFs" rel="noopener noreferrer" target="_blank">Instagram</a>
+<a class="hover:underline" href="https://wa.me/919019280008" rel="noopener noreferrer" target="_blank">WhatsApp</a>
+<a class="hover:underline" href="https://www.google.com/maps/search/?api=1&amp;query=S+K+Tower+Opposite+Basaveshwara+Temple+Gandhi+Bazar+Shivamogga+Karnataka+577202" rel="noopener noreferrer" target="_blank">Get Directions</a>
+</div>
+<p class="text-[10px] text-slate-600 font-mono pt-4">
+      © 2026 RN Weddings &amp; Events. All celebrations crafted with passion.
+    </p>
+</div>
+</footer>
+<!-- FLOATING WHATSAPP BUTTON -->
+<aside class="fixed bottom-6 right-6 z-50">
+<a aria-label="Chat on WhatsApp" class="w-14 h-14 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white flex items-center justify-center shadow-xl shadow-emerald-950/60 active:scale-95 transition-all group border-2 border-emerald-300/40" href="https://wa.me/919019280008?text=Hello%20RN%20Weddings%20%26%20Events%2C%20I%20would%20like%20to%20enquire%20about%20an%20event." rel="noopener noreferrer" target="_blank">
+<svg class="w-7 h-7 fill-white group-hover:scale-110 transition-transform" viewbox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm5.79 14.15c-.24.67-1.39 1.28-1.92 1.36-.51.08-1.18.11-3.39-.77-2.82-1.13-4.63-4.01-4.77-4.2-.14-.19-1.14-1.52-1.14-2.9 0-1.38.72-2.06.98-2.35.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.42-.07.65.48.24.58.82 2.01.89 2.16.07.15.12.33.02.53-.1.2-.15.32-.3.49-.15.17-.31.38-.45.51-.15.15-.31.31-.13.62.18.31.79 1.3 1.7 2.11 1.17 1.04 2.16 1.36 2.47 1.51.31.15.49.13.67-.08.18-.21.78-.91.99-1.22.21-.31.42-.26.71-.15.29.11 1.83.86 2.14 1.02.31.15.52.23.6.36.08.13.08.77-.16 1.44z"></path></svg>
+</a>
+</aside>
+<!-- LIGHTBOX MODAL -->
+<div class="fixed inset-0 z-50 bg-black/95 backdrop-blur-md hidden flex flex-col items-center justify-center p-4" id="lightboxModal">
+<button aria-label="Close Lightbox" class="absolute top-5 right-5 text-white/80 hover:text-white p-2 text-2xl font-bold focus:outline-none" onclick="closeLightbox()">✕</button>
+<div class="max-w-3xl w-full flex flex-col items-center">
+<div class="max-h-[75vh] max-w-full overflow-hidden rounded-xl border border-white/10 shadow-2xl mb-4 bg-black flex items-center justify-center">
+<img alt="Expanded View" class="max-h-[75vh] w-auto object-contain" id="lightboxImg" src=""/>
+</div>
+<div class="text-center max-w-lg">
+<h3 class="text-lg font-serif font-bold text-white mb-1" id="lightboxTitle"></h3>
+<p class="text-xs text-slate-300 font-light mb-4" id="lightboxDesc"></p>
+<a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-amber-400 text-black text-xs font-bold uppercase tracking-wider hover:bg-amber-300 transition-colors" href="#contact" id="lightboxEnquireBtn" onclick="closeLightbox()">
+        Enquire About This Setup →
+      </a>
+</div>
+</div>
+</div>
+<script>
+  // Handle Event Type Change to dynamically toggle "Others" input field
+  function handleEventTypeChange(selectElem) {
+    const container = document.getElementById('otherEventTypeContainer');
+    const input = document.getElementById('otherEventTypeInput');
+    if (selectElem.value === 'Others') {
+      container.classList.remove('hidden');
+      input.setAttribute('required', 'required');
+      input.focus();
+    } else {
+      container.classList.add('hidden');
+      input.removeAttribute('required');
+      input.value = '';
+    }
+  }
+
+  // Portfolio Filtering
+  function filterPortfolio(cat, btn) {
+    document.querySelectorAll('.gallery-filter').forEach(b => {
+      b.classList.remove('bg-amber-400', 'text-black');
+      b.classList.add('bg-white/10', 'text-slate-300');
+    });
+    btn.classList.remove('bg-white/10', 'text-slate-300');
+    btn.classList.add('bg-amber-400', 'text-black');
+
+    const items = document.querySelectorAll('.gallery-item');
+    items.forEach(item => {
+      if (cat === 'all' || item.classList.contains(cat)) {
+        item.style.display = 'block';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  }
+
+  // Lightbox functionality
+  function openLightbox(title, desc, imgSrc) {
+    document.getElementById('lightboxTitle').textContent = title;
+    document.getElementById('lightboxDesc').textContent = desc;
+    document.getElementById('lightboxImg').src = imgSrc;
+    const modal = document.getElementById('lightboxModal');
+    modal.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    const modal = document.getElementById('lightboxModal');
+    modal.classList.add('hidden');
+    document.body.style.overflow = '';
+  }
+
+  // WhatsApp Enquiry Form Submission
+  function submitToWhatsApp(event) {
+    event.preventDefault();
+    const name = document.getElementById('custName').value.trim();
+    const phone = document.getElementById('custPhone').value.trim();
+    const eventTypeSelect = document.getElementById('custEventType');
+    let eventType = eventTypeSelect.options[eventTypeSelect.selectedIndex].text;
+    if (eventTypeSelect.value === 'Others') {
+      const otherType = document.getElementById('otherEventTypeInput').value.trim();
+      eventType = otherType ? `Other: ${otherType}` : 'Other specialized event';
+    }
+    const date = document.getElementById('custDate').value;
+    const message = document.getElementById('custMessage').value.trim();
+
+    let text = `*New Event Enquiry - RN Weddings & Events*%0A%0A`;
+    text += `*Name:* ${encodeURIComponent(name)}%0A`;
+    text += `*Phone:* ${encodeURIComponent(phone)}%0A`;
+    text += `*Event Category:* ${encodeURIComponent(eventType)}%0A`;
+    if (date) text += `*Preferred Date:* ${encodeURIComponent(date)}%0A`;
+    if (message) text += `*Details / Venue:* ${encodeURIComponent(message)}%0A`;
+
+    const waUrl = `https://wa.me/919019280008?text=${text}`;
+    window.open(waUrl, '_blank');
+  }
+</script>
+</body></html>
